@@ -2,7 +2,7 @@
 include "common.thrift"
 include "user/admin_user.thrift"
 include "order/user_order.thrift"
-include "bucunzai.thrift"
+# include "bucunzai.thrift"
 
 service ApiService {
     // 创建管理员
