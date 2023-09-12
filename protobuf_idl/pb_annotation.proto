@@ -1,0 +1,40 @@
+syntax = "proto3";
+import "protobuf_idl/google/protobuf/descriptor.proto";
+package pb_idl;
+
+extend google.protobuf.FieldOptions {
+    ByteApiRequest  api_req= 50100;
+    ByteApiResponse  api_resp = 50101;
+}
+extend google.protobuf.MethodOptions{
+    ByteApiMethod api_method = 50200;
+}
+
+// pb注解，对应thrift的request上使用的注解
+message ByteApiRequest{
+    string raw_body = 1;
+    string query = 2;
+    string header =3;
+    string cookie =4;
+    string body =5;
+    string vd = 6;
+    string path = 7;
+}
+// pb注解， 对应thrift的response上使用的注解
+message ByteApiResponse{
+    string header = 1;
+    string body = 2;
+    string http_code = 3;
+    string none = 4;
+}
+//pb注解，method, 对应thrift的method注解
+message ByteApiMethod{
+    string get = 1;
+    string post = 2;
+    string serializer =3;
+    string param =4;
+    string baseurl = 5;
+    string put = 6;
+    string delete = 7;
+}
+
