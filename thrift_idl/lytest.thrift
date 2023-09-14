@@ -6,9 +6,9 @@ include "order/user_order.thrift"
 
 service ApiService {
     // 创建管理员-lytest
-    admin_user.CreateAdminUserResponse CreateAdminUser(1: admin_user.CreateAdminUserRequest req) (api.post="/eduosapi/admin_user/lytest", api.name="创建管理员_lytest")
+    admin_user.CreateAdminUserResponse1 CreateAdminUser1(1: admin_user.CreateAdminUserRequest1 req) (api.post="/eduosapi/admin_user/lytest", api.name="创建管理员_lytest")
     // 相同请求方式及请求路径测试
-    admin_user.CreateAdminUserResponse CreateAdminUser(1: admin_user.CreateAdminUserRequest req) (api.post="/samepath", api.name="相同路径_lytest")
+    admin_user.CreateAdminUserResponse2 CreateAdminUser2(1: admin_user.CreateAdminUserRequest2 req) (api.post="/samepath", api.name="相同路径_lytest")
     // 相同请求方式及请求路径测试2
-    admin_user.CreateAdminUserResponse CreateAdminUser(1: admin_user.CreateAdminUserRequest req) (api.post="/samepath", api.name="相同路径_lytest2")
+    admin_user.CreateAdminUserResponse3 CreateAdminUser3(1: admin_user.CreateAdminUserRequest3 req) (api.post="/samepath", api.name="相同路径_lytest2")
 }
