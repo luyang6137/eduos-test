@@ -6,5 +6,5 @@ include "order/user_order.thrift"
 
 service ApiService {
     // 创建管理员-lytest
-    admin_user.CreateAdminUserResponse CreateAdminUser(1: admin_user.CreateAdminUserRequest req) (api.post="/eduosapi/admin_user", api.name="创建管理员_lytest")
+    admin_user.CreateAdminUserResponse CreateAdminUser(1: admin_user.CreateAdminUserRequest req) (api.post="/eduosapi/admin_user/lytest", api.name="创建管理员_lytest")
     }
