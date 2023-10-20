@@ -16,12 +16,107 @@ struct GetLogFileTreeRequest {
     6: required string ClusterName,
     // 查找历史信息
     7: required bool IsHistory,
+    
     //测试1
-    8: optional i32 test (api.header = 'test')
-    //测试2
-    9: optional string text (api.body = 'text')
-    //测试3
-    10: optional string header1 (api.header = 'header1')
+    8: optional string param1
+    9: optional string param2
+    10: optional string param3
+    11: optional string param4
+    12: optional string param5
+    13: optional string param6
+    14: optional string param7
+    15: optional string param8
+    16: optional string param9
+    17: optional string param10
+    18: optional string param11
+    19: optional string param12
+    20: optional string param14
+    21: optional string param15
+    22: optional string param16
+    23: optional string param17
+    24: optional string param18
+    25: optional string param19
+    26: optional string param20
+    27: optional string param21
+    28: optional string param22
+    29: optional string param23
+    30: optional string param24
+    31: optional string param25
+    32: optional string param26
+    33: optional string param27
+    34: optional string param28
+    35: optional string param29
+    36: optional string param30
+    37: optional string param31
+    38: optional string param32
+    39: optional string param33
+    40: optional string param34
+    41: optional string param35
+    42: optional string param36
+    43: optional string param37
+    44: optional string param38
+    45: optional string param39
+    46: optional string param40
+    47: optional string param41
+    48: optional string param42
+    49: optional string param43
+    50: optional string param44
+    51: optional string param45
+    52: optional string param46
+    53: optional string param47
+    54: optional string param48
+    55: optional string param49
+    56: optional string param50
+    57: optional string param51
+    58: optional string param52
+    59: optional string param53
+    60: optional string param54
+    61: optional string param55
+    62: optional string param56
+    63: optional string param57
+    64: optional string param58
+    65: optional string param59
+    66: optional string param60
+    67: optional string param61
+    68: optional string param62
+    69: optional string param63
+    70: optional string param64
+    71: optional string param65
+    72: optional string param66
+    73: optional string param67
+    74: optional string param68
+    75: optional string param69
+    76: optional string param70
+    77: optional string param71
+    78: optional string param72
+    79: optional string param73
+    80: optional string param74
+    81: optional string param75
+    82: optional string param76
+    83: optional string param77
+    84: optional string param78
+    85: optional string param79
+    86: optional string param80
+    87: optional string param81
+    88: optional string param82
+    89: optional string param83
+    90: optional string param84
+    91: optional string param85
+    92: optional string param86
+    93: optional string param87
+    94: optional string param88
+    95: optional string param89
+    96: optional string param90
+    97: optional string param91
+    98: optional string param92
+    99: optional string param93
+    100: optional string param94
+    101: optional string param95
+    102: optional string param96
+    103: optional string param97
+    104: optional string param98
+    105: optional string param99
+    106: optional string param100
 
     255: required base.TopParam Top
 }
