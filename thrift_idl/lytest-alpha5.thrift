@@ -1,4 +1,6 @@
+include "common.thrift"
 include "user/admin_user.thrift"
+include "order/user_order.thrift"
 include "lytest/lytest.thrift"
 
 service ApiService {
