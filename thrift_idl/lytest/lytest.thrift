@@ -17,9 +17,11 @@ struct GetLogFileTreeRequest {
     // 查找历史信息
     7: required bool IsHistory,
     //测试1
-    8: optional i32 test(api.header = 'test')
-    9: optional string text(api.body = 'text')
-    10: optional string header1(api.header = 'header1')
+    8: optional i32 test (api.header = 'test')
+    //测试2
+    9: optional string text (api.body = 'text')
+    //测试1
+    10: optional string header1 (api.header = 'header1')
 
     255: required base.TopParam Top
 }
