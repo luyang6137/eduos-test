@@ -1,8 +1,2 @@
 
 include "common.thrift"
-#
-#
-#
-#
-#
-#
