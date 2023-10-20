@@ -20,7 +20,7 @@ struct GetLogFileTreeRequest {
     8: optional i32 test (api.header = 'test')
     //测试2
     9: optional string text (api.body = 'text')
-    //测试1
+    //测试3
     10: optional string header1 (api.header = 'header1')
 
     255: required base.TopParam Top
@@ -39,6 +39,12 @@ struct LogFileInfo {
 
 struct GetLogFileTreeResponse {
     1: required list<LogFileInfo> LogInfos,
+    //测试1
+    2: optional i32 test (api.header = 'test')
+    //测试2
+    3: optional string text (api.body = 'text')
+    //测试3
+    4: optional string header1 (api.header = 'header1')
 }
 
 struct ErrMsg {
