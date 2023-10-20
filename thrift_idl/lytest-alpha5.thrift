@@ -5,19 +5,19 @@ include "lytest/lytest.thrift"
 
 service ApiService {
     // 获取节点列表
-    logtree.ListLogPathNodeResponse ListLogPathNode(1: logtree.ListLogPathNodeRequest req) throws (1: common.Error err)
+    lytest.ListLogPathNodeResponse ListLogPathNode(1: lytest.ListLogPathNodeRequest req) throws (1: common.Error err)
     // 搜索实例日志目录
-    logtree.SearchLogPathResponse SearchLogPath(1: logtree.SearchLogPathRequest req) throws (1: common.Error err)
+    lytest.SearchLogPathResponse SearchLogPath(1: lytest.SearchLogPathRequest req) throws (1: common.Error err)
     // 获取下载列表
-    logtree.ListLogFileDownloadResponse ListLogFileDownload(1: logtree.ListLogFileDownloadRequest req) throws (1: common.Error err)
+    lytest.ListLogFileDownloadResponse ListLogFileDownload(1: lytest.ListLogFileDownloadRequest req) throws (1: common.Error err)
     // 创建日志下载记录
-    logtree.CreateLogFileDownloadResponse CreateLogFileDownload(1: logtree.CreateLogFileDownloadRequest req) throws (1: common.Error err)
+    lytest.CreateLogFileDownloadResponse CreateLogFileDownload(1: lytest.CreateLogFileDownloadRequest req) throws (1: common.Error err)
     // 更新日志下载记录
-    logtree.UpdateLogFileDownloadResponse UpdateLogFileDownload(1: logtree.UpdateLogFileDownloadRequest req) throws (1: common.Error err)
+    lytest.UpdateLogFileDownloadResponse UpdateLogFileDownload(1: lytest.UpdateLogFileDownloadRequest req) throws (1: common.Error err)
     // 删除日志下载记录
-    logtree.DeleteLogFileDownloadResponse DeleteLogFileDownload(1: logtree.DeleteLogFileDownloadRequest req) throws (1: common.Error err)
+    lytest.DeleteLogFileDownloadResponse DeleteLogFileDownload(1: lytest.DeleteLogFileDownloadRequest req) throws (1: common.Error err)
     // 批量获取日志目录文件
-    logtree.BatchDownloadLogPathResponse BatchDownloadLogPath(1: logtree.BatchDownloadLogPathRequest req) throws (1: common.Error err)
+    lytest.BatchDownloadLogPathResponse BatchDownloadLogPath(1: lytest.BatchDownloadLogPathRequest req) throws (1: common.Error err)
     // 超长>8182
     // lytest.GetLogFileTreeResponse GetLogFileTree1(1: lytest.GetLogFileTreeRequest req) throws (1: common.Error err) (api.post="/test/path", api.name="测试测试_lytest")
     // 相同路径
