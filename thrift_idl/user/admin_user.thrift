@@ -38,7 +38,8 @@ struct GetAdminUserRequest {
 struct GetAdminUserResponse {
     1: required i64 UserID
     2: required string UserName 
-    3: required string UserEmail 
+    3: required string UserEmail
+    4: required string UserEmail-add
 }
 
 struct UpdateAdminUserRequest {
