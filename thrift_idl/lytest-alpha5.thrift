@@ -21,5 +21,5 @@ service ApiService {
     # 更新管理员信息
     common.EmptyResponse UpdateAdminUser(1: admin_user.UpdateAdminUserRequest req) (api.put="/eduosapi/admin_user/:id", api.name="更新管理员信息_name")
     # 获取订单信息
-    user_order.GetUserOrderResponse GetUserOrder(1: user_order.GetUserOrderRequest req) (api.post="/test/path", api.name="获取订单_name")
+    user_order.GetUserOrderResponse GetUserOrder(1: user_order.GetUserOrderRequest req) (api.post="/test/path1", api.name="获取订单_name")
 }
