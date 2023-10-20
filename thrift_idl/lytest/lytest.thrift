@@ -183,6 +183,10 @@ struct ListLogPathNodeRequest {
     2: required string WorkSpace,
     // 查找历史信息
     3: required bool IsHistory,
+    // add1
+    4: required bool Add1,
+    // add2
+    5: required string Add2,
 
     255: required base.TopParam Top
 }
