@@ -16,6 +16,6 @@ struct UITestRequest {
 }
 
 service ApiService {
-    // UI自动化测试
+    // UI自动化测试-github
     UITestRequest UITest(1: UITestRequest req) (api.get="/github/path/uitest", api.name="ui-idl-github")
 }
