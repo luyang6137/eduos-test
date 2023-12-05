@@ -19,7 +19,7 @@ service ApiService {
     // 批量获取日志目录文件
     lytest.BatchDownloadLogPathResponse BatchDownloadLogPath(1: lytest.BatchDownloadLogPathRequest req) throws (1: common.Error err) (api.post="/test/batch", api.name="测试测试_lytest")
     // 超长>8182
-    // lytest.GetLogFileTreeResponse GetLogFileTree1(1: lytest.GetLogFileTreeRequest req) throws (1: common.Error err) (api.post="/test/path", api.name="测试测试_lytest")
+    lytest.GetLogFileTreeResponse GetLogFileTree1(1: lytest.GetLogFileTreeRequest req) throws (1: common.Error err) (api.post="/test/path", api.name="测试测试_lytest")
     // 相同路径
     // admin_user.CreateAdminUserResponse CreateAdminUser1(1: admin_user.CreateAdminUserRequest req) (api.post="/eduosapi/samepath", api.name="相同路径111")
     // 相同路径
