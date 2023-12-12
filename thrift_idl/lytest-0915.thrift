@@ -25,6 +25,6 @@ struct UIGenTestResponse {
 }
 
 service ApiService {
-    // testtest
-    UIGenTestResponse UITest(1: UIGenTestRequest req) (api.get="/gitlab/path/job1212", api.name="testtest")
+    // UI自动化测试-GenScaffoldJob
+    UIGenTestResponse UITest(1: UIGenTestRequest req) (api.get="/gitlab/path/genscaffoldjob", api.name="ui自动化-生成脚手架", api.header= 'Name', api.query = 'CreateTime')
 }
