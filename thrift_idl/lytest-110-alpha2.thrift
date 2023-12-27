@@ -13,5 +13,5 @@ service ApiService {
     // 路径正则验证
     lytest.DemoResponse PathVerify (1: lytest.AnnoRequest req) (api.post="/eduosapi/110alpha2/path44?Action=ListInfo&Name=test&ID=123", api.name="路径正则验证")
     // 路径验证
-    lytest.DemoResponse PathVerify (1: lytest.AnnoRequest req) (api.post="/eduosapi/110alpha2/path1234/wertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwer/wertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwer/wertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwer/wertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwer?Action=ListInfo&Name=test&ID=123", api.name="路径正则验证")
+    lytest.DemoResponse PathVerify (1: lytest.AnnoRequest req) (api.post="/eduosapi/110alpha2/path4321/wertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwer/wertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwer/wertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwer/wertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwertyuiopqwer?Action=ListInfo&Name=test&ID=123", api.name="路径正则验证")
 }
