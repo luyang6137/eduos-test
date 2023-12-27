@@ -10,7 +10,7 @@ struct TestResponse {
 
 service ApiService {
     TestResponse UITesta (1: TestRequest req) (api.get="/gitlab/alpha2/path1", api.name="接口API111")
-    TestResponse UITestb (1: TestRequest req) (api.get="/gitlab/alpha2/path2?Action=getInfo", api.name="接口API222")
+    TestResponse UITestb# (1: TestRequest req) (api.get="/gitlab/alpha2/path2?Action=getInfo", api.name="接口API222")
     TestResponse UITestc (1: TestRequest req) (api.get="/gitlab/alpha2/path3?", api.name="接口API333")
     TestResponse UITestd (1: TestRequest req) (api.get="/gitlab/alpha2/path4?Action", api.name="接口API444")
     TestResponse UITesti (1: TestRequest req) (api.get="/gitlab/alpha2/path4?Action=", api.name="接口API4555")
