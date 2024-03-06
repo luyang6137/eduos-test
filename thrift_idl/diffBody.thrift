@@ -46,14 +46,14 @@ struct TestResponse {
 
 service ApiService {
     // body=json,resp=json
-    TestResponse APITest00001 (1: TestRequest req) (api.post="/github/alpha2/API01", api.name="接口API01", api.serializer = 'json', api.resp_serializer = 'json')
+    TestResponse APITest00001 (1: TestRequest req) (api.post="/github/alpha4/API01", api.name="接口API01", api.serializer = 'json', api.resp_serializer = 'json')
     // body=form,resp=form
-    TestResponse APITest00002 (1: TestRequest req) (api.post="/github/alpha2/API02", api.name="接口API02", api.serializer = 'form', api.resp_serializer = 'form')
+    TestResponse APITest00002 (1: TestRequest req) (api.post="/github/alpha4/API02", api.name="接口API02", api.serializer = 'form', api.resp_serializer = 'form')
     // body=pb,resp=pb
-    TestResponse APITest00003 (1: TestRequest req) (api.post="/github/alpha2/API03", api.name="接口API03", api.serializer = 'pb', api.resp_serializer = 'pb')
+    TestResponse APITest00003 (1: TestRequest req) (api.post="/github/alpha4/API03", api.name="接口API03", api.serializer = 'pb', api.resp_serializer = 'pb')
     // body=muti-form,resp=muti-form
-    TestResponse APITest00004 (1: TestRequest req) (api.post="/github/alpha2/API04", api.name="接口API04", api.serializer = 'muti-form', api.resp_serializer = 'muti-form')
+    TestResponse APITest00004 (1: TestRequest req) (api.post="/github/alpha4/API04", api.name="接口API04", api.serializer = 'muti-form', api.resp_serializer = 'muti-form')
     // body=form,json,resp=json,pb
-    TestResponse APITest00005 (1: TestRequest req) (api.post="/github/alpha2/API05", api.name="接口API05", api.serializer = 'form,json', api.resp_serializer = 'json,pb')
+    TestResponse APITest00005 (1: TestRequest req) (api.post="/github/alpha4/API05", api.name="接口API05", api.serializer = 'form,json', api.resp_serializer = 'json,pb')
 
 }
