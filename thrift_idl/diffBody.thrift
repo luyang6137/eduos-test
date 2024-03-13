@@ -55,5 +55,7 @@ service ApiService {
     TestResponse APITest00004 (1: TestRequest req) (api.post="/github/alpha4/API04", api.name="接口API04", api.serializer = 'muti-form', api.resp_serializer = 'muti-form')
     // body=form,json,resp=json,pb
     TestResponse APITest00005 (1: TestRequest req) (api.post="/github/alpha4/API05", api.name="接口API05", api.serializer = 'form,json', api.resp_serializer = 'json,pb')
+    // body=form,json,resp=json,pb
+    TestResponse APITest00006 (1: TestRequest req) (api.post="/github/alpha4/API06", api.name="接口API06", api.serializer = 'form,json', api.resp_serializer = 'json,pb')
 
 }
